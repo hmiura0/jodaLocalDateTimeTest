@@ -1,0 +1,12 @@
+package com.redhat
+
+import com.redhat.Card;
+
+dialect "mvel";
+
+rule "rule1"
+    when
+        $c : Card()
+    then
+        System.out.println( $c );
+end
