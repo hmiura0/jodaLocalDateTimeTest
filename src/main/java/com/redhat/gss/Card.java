@@ -46,7 +46,7 @@ public class Card implements java.io.Serializable {
 		return this.timeStamp;
 	}
 
-	public void setTimeStamp(java.time.LocalDate timeStamp) {
+	public void setTimeStamp(org.joda.time.LocalDate timeStamp) {
 		this.timeStamp = timeStamp;
 	}
 
