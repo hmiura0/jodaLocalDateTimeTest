@@ -57,5 +57,10 @@ public class Card implements java.io.Serializable {
 		this.cardType = cardType;
 		this.timeStamp = timeStamp;
 	}
+	
+	@Override
+    public String toString() {
+        return "Card [ID=" + ID + ", timeStamp=" + timeStamp + ", cardNo=" + cardNo + ", cardType=" + cardType + "]";
+    }
 
 }
