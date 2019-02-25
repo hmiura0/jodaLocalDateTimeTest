@@ -51,7 +51,7 @@ public class Card implements java.io.Serializable {
 	}
 
 	public Card(long id, java.lang.String cardNo, java.lang.String cardType,
-			java.time.LocalDate timeStamp) {
+			org.joda.time.LocalDate timeStamp) {
 		this.id = id;
 		this.cardNo = cardNo;
 		this.cardType = cardType;
