@@ -6,5 +6,6 @@ rule "rule1"
     when
         $c : Card()
     then
+        $c.setCardType("GOLD");
         System.out.println( "###########" + $c );
 end
