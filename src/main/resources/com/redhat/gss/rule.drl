@@ -1,2 +1,10 @@
 package com.redhat.gss;
 
+import com.redhat.gss.Card;
+
+rule "rule1"
+    when
+        $c : Card()
+    then
+        System.out.println( $c );
+end
