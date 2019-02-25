@@ -13,7 +13,7 @@ public class Card implements java.io.Serializable {
 	private long id;
 	private java.lang.String cardNo;
 	private java.lang.String cardType;
-	private oeg.joda.time.LocalDate timeStamp;
+	private org.joda.time.LocalDate timeStamp;
 
 	public Card() {
 	}
