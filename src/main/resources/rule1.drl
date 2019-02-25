@@ -1,6 +1,6 @@
-package com.redhat
+package com.redhat.gss
 
-import com.redhat.Card;
+import com.redhat.gss.Card;
 
 dialect "mvel";
 
