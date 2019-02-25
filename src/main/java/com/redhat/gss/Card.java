@@ -10,7 +10,7 @@ public class Card implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	private long id;
+	private long ID;
 	private java.lang.String cardNo;
 	private java.lang.String cardType;
 	private org.joda.time.LocalDate timeStamp;
@@ -18,12 +18,12 @@ public class Card implements java.io.Serializable {
 	public Card() {
 	}
 
-	public long getId() {
-		return this.id;
+	public long getID() {
+		return this.ID;
 	}
 
-	public void setId(long id) {
-		this.id = id;
+	public void setId(long ID) {
+		this.ID = ID;
 	}
 
 	public java.lang.String getCardNo() {
@@ -50,9 +50,9 @@ public class Card implements java.io.Serializable {
 		this.timeStamp = timeStamp;
 	}
 
-	public Card(long id, java.lang.String cardNo, java.lang.String cardType,
+	public Card(long ID, java.lang.String cardNo, java.lang.String cardType,
 			org.joda.time.LocalDate timeStamp) {
-		this.id = id;
+		this.ID = ID;
 		this.cardNo = cardNo;
 		this.cardType = cardType;
 		this.timeStamp = timeStamp;
