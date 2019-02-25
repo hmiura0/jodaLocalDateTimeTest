@@ -42,7 +42,7 @@ public class Card implements java.io.Serializable {
 		this.cardType = cardType;
 	}
 
-	public java.time.LocalDate getTimeStamp() {
+	public org.joda.time.LocalDate getTimeStamp() {
 		return this.timeStamp;
 	}
 
